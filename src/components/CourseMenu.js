@@ -7,8 +7,8 @@ const CourseMenu = () => {
             <Nav className="mr-auto">
                 <Nav.Link href="/">Home</Nav.Link>
                 <NavDropdown title="Course" id="basic-nav-dropdown">
-                    <NavDropdown.Item href="react-course-app/addCourse">Add Course</NavDropdown.Item>
-                    <NavDropdown.Item href="react-course-app/displayCourse">Display Course</NavDropdown.Item>
+                    <NavDropdown.Item href="/addCourse">Add Course</NavDropdown.Item>
+                    <NavDropdown.Item href="/displayCourse">Display Course</NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link href="/about">About</Nav.Link>
             </Nav>
