@@ -3,15 +3,15 @@ import './App.css';
 import 'react-toastify/dist/ReactToastify.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CourseRouter from "./components/router/CourseRouter";
-import {BrowserRouter} from "react-router-dom";
+import {HashRouter} from "react-router-dom";
 
 
 function App() {
   return (
     <div className="App">
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter>
             <CourseRouter/>
-        </BrowserRouter>
+        </HashRouter>
     </div>
   );
 }
