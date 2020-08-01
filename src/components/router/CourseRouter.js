@@ -13,11 +13,11 @@ const CourseRouter = () => {
         <div>
             <CourseMenu/>
             <Switch>
-                <Route exact path={process.env.PUBLIC_URL+ '/'} component={ HomeCourse } />
-                <Route exact path={process.env.PUBLIC_URL+ '/addCourse'} component={ AddCourse } />
-                <Route exact path={process.env.PUBLIC_URL+ '/displayCourse'} component={ DisplayCourse } />
-                <Route exact path={process.env.PUBLIC_URL+ '/editCourse'} component={ EditCourse } />
-                <Route exact path={process.env.PUBLIC_URL+ '/about'} component={ About } />
+                <Route exact path="/" component={ HomeCourse } />
+                <Route exact path="/addCourse" component={ AddCourse } />
+                <Route exact path="/displayCourse" component={ DisplayCourse } />
+                <Route exact path="/editCourse" component={ EditCourse } />
+                <Route exact path="/about" component={ About } />
                 <Route component={PageNotFound} />
             </Switch>
         </div>
