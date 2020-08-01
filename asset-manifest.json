@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-course-app/static/css/main.97cb9e6c.chunk.css",
-    "main.js": "/react-course-app/static/js/main.dcce16da.chunk.js",
-    "main.js.map": "/react-course-app/static/js/main.dcce16da.chunk.js.map",
+    "main.js": "/react-course-app/static/js/main.a7b34ac1.chunk.js",
+    "main.js.map": "/react-course-app/static/js/main.a7b34ac1.chunk.js.map",
     "runtime-main.js": "/react-course-app/static/js/runtime-main.4ce906c8.js",
     "runtime-main.js.map": "/react-course-app/static/js/runtime-main.4ce906c8.js.map",
     "static/css/2.e7c4c567.chunk.css": "/react-course-app/static/css/2.e7c4c567.chunk.css",
     "static/js/2.81d1d483.chunk.js": "/react-course-app/static/js/2.81d1d483.chunk.js",
     "static/js/2.81d1d483.chunk.js.map": "/react-course-app/static/js/2.81d1d483.chunk.js.map",
     "index.html": "/react-course-app/index.html",
-    "precache-manifest.2a27a71cfdde3790ea13da7370605f20.js": "/react-course-app/precache-manifest.2a27a71cfdde3790ea13da7370605f20.js",
+    "precache-manifest.632b94dbfc4af5c552c14f651c846a82.js": "/react-course-app/precache-manifest.632b94dbfc4af5c552c14f651c846a82.js",
     "service-worker.js": "/react-course-app/service-worker.js",
     "static/css/2.e7c4c567.chunk.css.map": "/react-course-app/static/css/2.e7c4c567.chunk.css.map",
     "static/css/main.97cb9e6c.chunk.css.map": "/react-course-app/static/css/main.97cb9e6c.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.e7c4c567.chunk.css",
     "static/js/2.81d1d483.chunk.js",
     "static/css/main.97cb9e6c.chunk.css",
-    "static/js/main.dcce16da.chunk.js"
+    "static/js/main.a7b34ac1.chunk.js"
   ]
 }
