@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "76698785b2516a729d1a21654a441424",
+    "revision": "c065cb4ca1d0cbb8af55e39b73b4b0bb",
     "url": "/react-course-app/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-course-app/static/css/2.e7c4c567.chunk.css"
   },
   {
-    "revision": "2418959cfaa76ef64463",
+    "revision": "0629ebeeedbd650c82b2",
     "url": "/react-course-app/static/css/main.0acfd60d.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-course-app/static/js/2.40e9a318.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2418959cfaa76ef64463",
-    "url": "/react-course-app/static/js/main.db87e499.chunk.js"
+    "revision": "0629ebeeedbd650c82b2",
+    "url": "/react-course-app/static/js/main.00bbdd72.chunk.js"
   },
   {
     "revision": "bb48857f7c17e0af8655",
