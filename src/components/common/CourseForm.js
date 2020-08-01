@@ -6,7 +6,10 @@ import {ToastContainer} from "react-toastify";
 const CourseForm = (props) => {
 
     return (
-        <Formik initialValues={props.initialValues} validationSchema={props.validationSchema} onSubmit={props.onSubmit}>
+        <Formik initialValues={props.initialValues} validationSchema={props.validationSchema}
+                onSubmit={props.onSubmit} editMode={props.editMode}
+                onCancel={props.onCancel}
+        >
             <Form>
                 <div className="form-group">
                     <label htmlFor="courseName" className="float-left">Course Name</label>
@@ -40,10 +43,21 @@ const CourseForm = (props) => {
                     <Field type="text" className="form-control" name="availability"/>
                     <ErrorMessage name="availability" className="errors" component="div"/>
                 </div>
-                <div>
-                    <button type="submit" className="btn btn-primary mr-3">Submit</button>
-                    <button type="reset" className="btn btn-secondary">Reset</button>
-                </div>
+                {
+                    !props.editMode ? (
+                        <div>
+                            <button type="submit" className="btn btn-primary mr-3">Submit</button>
+                            <button type="reset" className="btn btn-secondary">Reset</button>
+                        </div>
+                    ) : (
+                        <div>
+                            <button type="submit" className="btn btn-primary mr-3">Update</button>
+                            <button onClick={props.onCancel} className="btn btn-secondary">Cancel</button>
+                        </div>
+                    )
+                }
+
+
 
                 <ToastContainer/>
             </Form>

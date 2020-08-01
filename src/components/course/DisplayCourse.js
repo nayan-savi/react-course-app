@@ -5,9 +5,9 @@ import CommonService from "../common/CommonService";
 import CourseForm from "../common/CourseForm";
 import CourseTable from "../common/CourseTable";
 
-const getUrl = "http://localhost:8080/api/courses";
-const deleteUrl = "http://localhost:8080/api/delete/";
-const updateCourse = "http://localhost:8080/api/course";
+const getUrl = "https://spring-boot-course-jpa.herokuapp.com/api/courses";
+const deleteUrl = "https://spring-boot-course-jpa.herokuapp.com/api/delete/";
+const updateCourse = "https://spring-boot-course-jpa.herokuapp.com/api/course";
 
 let commonService = new CommonService();
 const config = commonService.getConfig();
@@ -33,6 +33,10 @@ const DisplayCourse = () => {
         console.log(course)
         setEditing(true);
         setValues(course);
+    }
+
+    const onCancel = () => {
+        setEditing(false);
     }
 
     const onSubmit = async (course) => {
@@ -83,7 +87,11 @@ const DisplayCourse = () => {
                 ) : (
                     <div className="addCourse">
                         <h1>Update Course</h1>
-                        <CourseForm initialValues={initialValues} validationSchema={validationSchema} courseNames={courseNames} onSubmit={onSubmit}/>
+                        <CourseForm initialValues={initialValues} validationSchema={validationSchema}
+                                    courseNames={courseNames} onSubmit={onSubmit}
+                                    editMode={editing}
+                                    onCancel={onCancel}
+                        />
                     </div>
                 )
             }

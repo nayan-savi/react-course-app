@@ -10,7 +10,7 @@ const config = commonService.getConfig();
 const courseNames = commonService.getCourseNames();
 const initialValues = commonService.getInitialValues();
 const validationSchema = commonService.getValidationSchema();
-const createUrl = "http://localhost:8080/api/create";
+const createUrl = "https://spring-boot-course-jpa.herokuapp.com/api/create";
 
 const AddCourse = () => {
 
