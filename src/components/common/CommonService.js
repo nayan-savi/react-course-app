@@ -47,10 +47,6 @@ class CommonService {
         };
     }
 
-    getUrl(path) {
-        return "http://localhost:8080/api/create/api/"+path;
-    }
-
 }
 
 export default CommonService;
