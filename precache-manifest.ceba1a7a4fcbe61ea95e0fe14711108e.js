@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "39d368b7d52100f659bb34f61a9dc96b",
+    "revision": "7fe57f9d62b479d426a2206752a65e84",
     "url": "/react-course-app/index.html"
   },
   {
-    "revision": "c973b890f0be8737de37",
+    "revision": "14340d76adfb0daef97f",
     "url": "/react-course-app/static/css/2.e7c4c567.chunk.css"
   },
   {
-    "revision": "fe6ab0c4158b4b90dae7",
+    "revision": "ff3ebb1b3116049d55f1",
     "url": "/react-course-app/static/css/main.97cb9e6c.chunk.css"
   },
   {
-    "revision": "c973b890f0be8737de37",
-    "url": "/react-course-app/static/js/2.2d81da9d.chunk.js"
+    "revision": "14340d76adfb0daef97f",
+    "url": "/react-course-app/static/js/2.81d1d483.chunk.js"
   },
   {
     "revision": "885c0e205ef5e79f4aef448a818ba6a1",
-    "url": "/react-course-app/static/js/2.2d81da9d.chunk.js.LICENSE.txt"
+    "url": "/react-course-app/static/js/2.81d1d483.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fe6ab0c4158b4b90dae7",
-    "url": "/react-course-app/static/js/main.d2c14474.chunk.js"
+    "revision": "ff3ebb1b3116049d55f1",
+    "url": "/react-course-app/static/js/main.6226de1f.chunk.js"
   },
   {
     "revision": "bb48857f7c17e0af8655",
