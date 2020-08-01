@@ -9,7 +9,7 @@ import {HashRouter} from "react-router-dom";
 function App() {
   return (
     <div className="App">
-        <HashRouter>
+        <HashRouter basename={process.env.PUBLIC_URL}>
             <CourseRouter/>
         </HashRouter>
     </div>
