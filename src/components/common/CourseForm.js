@@ -1,24 +1,13 @@
 import React from 'react';
 import {ErrorMessage, Field, Form, Formik} from "formik";
 import {ToastContainer} from "react-toastify";
-import {makeStyles} from "@material-ui/core/styles";
 
-
-const useStyles = makeStyles((theme) => ({
-    root: {
-        '& .MuiTextField-root': {
-            margin: theme.spacing(1),
-            width: '65ch',
-        },
-    },
-}));
 
 const CourseForm = (props) => {
-    const classes = useStyles();
 
     return (
         <Formik initialValues={props.initialValues} validationSchema={props.validationSchema} onSubmit={props.onSubmit}>
-            <Form className={classes.root}>
+            <Form>
                 <div className="form-group">
                     <label htmlFor="courseName" className="float-left">Course Name</label>
                     <Field name="courseName" component="select" className="form-control">
