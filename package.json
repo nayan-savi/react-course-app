@@ -1,7 +1,8 @@
 {
-  "name": "course-app",
+  "name": "react-course-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://nayan-savi.github.io/react-course-app",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@opuscapita/react-icons": "^4.0.14",
@@ -23,6 +24,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+	"predeploy": "npm run build",
+	"deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
