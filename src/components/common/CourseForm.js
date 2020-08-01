@@ -7,7 +7,7 @@ const CourseForm = (props) => {
 
     return (
         <Formik initialValues={props.initialValues} validationSchema={props.validationSchema} onSubmit={props.onSubmit}>
-            <Form>
+            <form>
                 <div className="form-group">
                     <label htmlFor="courseName" className="float-left">Course Name</label>
                     <Field name="courseName" component="select" className="form-control">
@@ -46,7 +46,7 @@ const CourseForm = (props) => {
                 </div>
 
                 <ToastContainer/>
-            </Form>
+            </form>
         </Formik>
     );
 };

@@ -17,10 +17,11 @@ const AddCourse = () => {
 
     const onSubmit = async (course, {resetForm}) => {
         await axios.post(createUrl, course, config)
-            .then(result => {
-                console.log("saved")
-                toast.success('Data saved.', commonService.getToastOptions());
-                resetForm();
+            .then(response => {
+                if(response.status === 200) {
+                    toast.success('Data saved.', commonService.getToastOptions());
+                    resetForm();
+                }
             })
             .catch(error => {
                 toast.error('Issue while saving...');
