@@ -7,10 +7,10 @@ const CourseMenu = () => {
             <Nav className="mr-auto">
                 <Nav.Link href="/">Home</Nav.Link>
                 <NavDropdown title="Course" id="basic-nav-dropdown">
-                    <NavDropdown.Item href="/addCourse">Add Course</NavDropdown.Item>
-                    <NavDropdown.Item href="/displayCourse">Display Course</NavDropdown.Item>
+                    <NavDropdown.Item href={process.env.PUBLIC_URL+ '#/addCourse'}>Add Course</NavDropdown.Item>
+                    <NavDropdown.Item href={process.env.PUBLIC_URL+ '#/displayCourse'}>Display Course</NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link href="/about">About</Nav.Link>
+                <Nav.Link href={process.env.PUBLIC_URL+ '#/about'}>About</Nav.Link>
             </Nav>
         </Navbar>
     );
